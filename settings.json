@@ -1,0 +1,7 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": -1,
+    "[javascript]": { "editor.formatOnSave": true }
+}
