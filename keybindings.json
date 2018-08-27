@@ -1,5 +1,9 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+    { "key": "ctrl+shift+n", "command": "cursorDownSelect", "when": "textInputFocus" },
+    { "key": "ctrl+shift+p", "command": "cursorUpSelect", "when": "textInputFocus" },
+    { "key": "ctrl+shift+f", "command": "cursorRightSelect", "when": "textInputFocus" },
+    { "key": "ctrl+shift+b", "command": "cursorLeftSelect", "when": "textInputFocus" },
     { "key": "cmd+shift+j", "command": "workbench.action.terminal.focusNext" },
     { "key": "cmd+shift+k", "command": "workbench.action.terminal.focusPrevious" },
     { "key": "cmd+shift+t", "command": "workbench.action.terminal.newInActiveWorkspace" },
@@ -8,5 +12,4 @@
     { "key": "cmd+shift+enter", "command": "workbench.action.focusActiveEditorGroup", "when":"terminalFocus" },
     { "key": "cmd+0", "command": "workbench.action.focusActiveEditorGroup", "when":"!editorFocus" },
     { "key": "shift+cmd+/", "command": "editor.action.blockComment", "when": "editorTextFocus && !editorReadonly" },
-
 ]

@@ -3,5 +3,8 @@
     "git.autofetch": true,
     "explorer.confirmDelete": false,
     "window.zoomLevel": -1,
-    "[javascript]": { "editor.formatOnSave": true }
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never"
 }
