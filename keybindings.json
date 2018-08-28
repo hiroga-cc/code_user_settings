@@ -4,6 +4,8 @@
     { "key": "ctrl+shift+p", "command": "cursorUpSelect", "when": "textInputFocus" },
     { "key": "ctrl+shift+f", "command": "cursorRightSelect", "when": "textInputFocus" },
     { "key": "ctrl+shift+b", "command": "cursorLeftSelect", "when": "textInputFocus" },
+    { "key": "ctrl+shift+a", "command": "cursorHomeSelect", "when": "textInputFocus" },
+    { "key": "ctrl+shift+e", "command": "cursorEndSelect", "when": "textInputFocus" },
     { "key": "cmd+shift+j", "command": "workbench.action.terminal.focusNext" },
     { "key": "cmd+shift+k", "command": "workbench.action.terminal.focusPrevious" },
     { "key": "cmd+shift+t", "command": "workbench.action.terminal.newInActiveWorkspace" },
